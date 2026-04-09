@@ -1,0 +1,3 @@
+[submodule "content"]
+	path = content
+	url = git@github.com:Juliper/TUDa_HiveMind_Vault.git
