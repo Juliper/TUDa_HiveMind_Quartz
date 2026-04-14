@@ -42,6 +42,9 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.Graph(
+      localGraph: {
+        showTags: false,
+      },
       globalGraph: {
         showTags: false,
       },
