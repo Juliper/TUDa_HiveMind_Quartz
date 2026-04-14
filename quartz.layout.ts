@@ -5,7 +5,23 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'juliper/TUDa_HIveMind_Quartz',
+        // from data-repo-id
+        repoId: 'R_kgDOR-Vq3w',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDOR-Vq384C62ox',
+        // from data-lang
+        lang: 'de'
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       "GitHub - Vault": "https://github.com/Juliper/TUDa_HiveMind_Vault",
