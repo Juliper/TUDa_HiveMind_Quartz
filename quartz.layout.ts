@@ -24,8 +24,8 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      "GitHub - Vault": "https://github.com/Juliper/TUDa_HiveMind_Vault",
-      "GitHub - Quartz": "https://github.com/Juliper/TUDa_HiveMind_Quartz",
+      "GitHub - Hive Mind Vault": "https://github.com/Juliper/TUDa_HiveMind_Vault",
+      "GitHub - Hive Mind Quartz": "https://github.com/Juliper/TUDa_HiveMind_Quartz",
       "tud_geekhub": "https://discord.gg/geekhub",
     },
   }),
