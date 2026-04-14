@@ -68,6 +68,21 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'juliper/TUDa_HIveMind_Quartz',
+        // from data-repo-id
+        repoId: 'R_kgDOR-Vq3w',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDOR-Vq384C62ox',
+        // from data-lang
+        lang: 'de'
+      }
+    }),
   ],
 }
 
