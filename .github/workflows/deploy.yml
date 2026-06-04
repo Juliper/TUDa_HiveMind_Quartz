@@ -35,7 +35,7 @@ jobs:
           git add content
           git diff --cached --quiet || git commit -m "chore: update content submodule [skip ci]" && git push
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
 
