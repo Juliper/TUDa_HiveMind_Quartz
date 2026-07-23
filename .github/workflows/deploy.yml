@@ -18,7 +18,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
           submodules: true
@@ -35,7 +35,7 @@ jobs:
           git add content
           git diff --cached --quiet || git commit -m "chore: update content submodule [skip ci]" && git push
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
 
